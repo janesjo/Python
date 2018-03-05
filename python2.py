@@ -1,6 +1,6 @@
-"""Define a function called areaOfRectangle"""
+"""Define a function so called areaOfRectangle"""
 def area(sidelength1, sidelength2):
-    """Define a function called areaOfRectangle"""
+    """Define a function so called areaOfRectangle"""
     return sidelength1 * sidelength2
 
 SIDE1 = float(input("Input side 1: "))
