@@ -1,0 +1,119 @@
+from equipment import *
+
+class character():
+    def __init__ (self):
+        self.max_xp = 100
+        self.xp = 0
+        self.lvl = 1
+        self.lvl_points = 0
+        self.bag = [bastard_sword]
+        self.name = "Alex"
+        self.main_stat = ""
+        self.turn = 0
+        self.status = 0
+        self.status_turn = 0
+        self.status_dot = 0
+        self.status_chance = 50
+        self.dex = 10
+        self.agi = 10
+        self.str = 10
+        self.vit = 100
+        self.stamina = 0
+        self.atk = 0
+        self.wep_atk = 0
+        self.dodge = 0
+        self.hit = 0
+        self.speed = 0
+        self.hp = 0
+        self.max_hp = 0
+        self.crit = 100
+        self.armour_block = 0
+        self.armour_value = 0
+        self.main_hand = dagger
+        self.off_hand = naked
+        self.armour_head = naked
+        self.armour_chest = leather_armour
+        self.armour_legs = naked
+        self.armour_arms = naked
+        self.trinket = 0
+        self.gold = 0
+        self.armour_stat = 0
+        self.extra = 0
+        self.extra = 0
+
+player = character()
+
+class test_enemy():
+    def __init__ (self):       
+        self.lvl = 1
+        self.xp_drop = 150
+        self.bag = [True, dagger]
+        self.name = "Ljung"
+        self.main_stat = ""
+        self.status = 0
+        self.status_turn = 0
+        self.status_dot = 0
+        self.status_chance = 50
+        self.str = 10
+        self.agi = 100
+        self.dex = 10
+        self.vit = 100
+        self.stamina = 0
+        self.atk = 0
+        self.wep_atk = 0
+        self.dodge = 0
+        self.hit = 0
+        self.speed = 0
+        self.hp = 0
+        self.max_hp = 0
+        self.crit = 20
+        self.armour_block = 0
+        self.armour_value = 0
+        self.main_hand = dagger
+        self.off_hand = naked
+        self.armour_head = naked
+        self.armour_chest = leather_armour
+        self.armour_legs = naked
+        self.armour_arms = naked
+        self.trinket = 0
+        self.gold = 50
+        self.extra = 0   # < extra if needed.
+        self.extra = 0
+        self.extra = 0
+
+class nameless_viking():
+    def __init__ (self):       
+        self.lvl = 1
+        self.xp_drop = 150
+        self.bag = [True, dagger]
+        self.name = "Nameless Viking"
+        self.main_stat = ""
+        self.status = False
+        self.status_turn = 0
+        self.status_dot = 0
+        self.status_chance = 0
+        self.str = 10
+        self.agi = 10
+        self.dex = 10
+        self.vit = 10
+        self.stamina = 0
+        self.atk = 0
+        self.wep_atk = 0
+        self.dodge = 0
+        self.hit = 0
+        self.speed = 0
+        self.hp = 0
+        self.max_hp = 0
+        self.crit = 0
+        self.armour_value = 0
+        self.main_hand = bastard_sword
+        self.off_hand = naked
+        self.armour_head = naked
+        self.armour_chest = leather_armour
+        self.armour_legs = naked
+        self.armour_arms = naked
+        self.trinket = 0
+        self.gold = 50
+        self.extra = 0   # < extra if needed.
+        self.extra = 0
+        self.extra = 0
