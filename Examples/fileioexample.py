@@ -35,6 +35,21 @@ lw[2].name = "Staff"
 lw[2].damage = 1000
 lw[2].health = 10
 
+lw.append(Weapon())
+lw[3].name = "Spear"
+lw[3].damage = 200
+lw[3].health = 5000
+
+lw.append(Weapon())
+lw[4].name = "Axe"
+lw[4].damage = 50
+lw[4].health = 300
+
+lw.append(Weapon())
+lw[5].name = "Hammer"
+lw[5].damage = 5000
+lw[5].health = 50
+
 # Open a file
 fo = open('foo.txt', 'w')
 
