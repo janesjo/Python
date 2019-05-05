@@ -16,7 +16,7 @@ class Weapon():
         fo.writelines(str(self.damage) + "\n")
         fo.writelines(str(self.health) + "\n")
 
-# Weapon List
+# Weapons List
 lw = []
 
 # Create weapons
